@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+body{
+    background-color:#2A0944;
+    margin:0;
+    padding:0;
+    font-family: 'Manrope', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading{
+    text-align:center;
+    color:#F6F6F6;
+    margin-bottom:100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading h3{
+    font-size:24px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inputarea{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
 }
-
-.App-link {
-  color: #61dafb;
+.inputarea input{
+    width:300px;
+    height:30px;
+    border:none;
+    border-radius:7px;
+    outline:none;
+    padding-left:10px;
+    font-family: 'Manrope', sans-serif;
+    font-size:18px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputarea button{
+    width:100px;
+    height:35px;
+    margin:10px;
+    font-size:17px;
+    border:none;
+    border-radius:7px;
+    background-color:#FFAB4C;
+    font-family: 'Manrope', sans-serif;
+    font-weight:bold;
+    cursor: pointer;
+}
+.emojiarea{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.emojiarea p{
+    font-size:30px;
+    margin:15px;
+}
+.emojiname h3{
+    text-align:center;
+    font-size:20px;
+    color:#F6F6F6;
 }
